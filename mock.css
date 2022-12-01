@@ -1,0 +1,343 @@
+body {
+    align-items: center;
+    text-align: center;
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+line-height: 206%;
+
+}
+
+.circle{
+ 
+        height: 48px;
+        width: 48px;
+        Top:0.01px;
+        Left:0.01px;
+        background-color: white;
+        border-radius: 50%;
+        position: absolute; 
+        top: 14px;
+        left: 200px;
+        transition: step-start 21s;
+    
+}
+
+@media only screen and (max-width: 1000px){
+    .top-page{
+        display: flex;
+        align-items:flex-end;
+        width: 700px;
+    }
+}
+
+
+.top-page{
+    background-image: url(header.png);
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.top-content > h1{
+    padding:50px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    
+    text-align: center;
+    letter-spacing: 0.64em;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+    
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+.top-content > h2{
+    padding:50px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: 0.37em;
+    
+    color: #FFFFFF;
+    
+
+}
+
+
+.top-button{
+    background: yellow;
+    color: black;
+    text-decoration: none;
+    padding: 1em 2em;
+}
+
+.section2 {
+text-align: center;
+padding:100px;
+
+}
+.section2 > p {
+    margin:120px;
+    
+        }
+
+
+.OurServices{
+    background-color: #F4F4F4;
+    padding: 50px;
+    
+}
+
+.servicesElements{
+    padding: 50px;
+    
+    
+}
+.servicesElements > h2{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 140%;
+    /* identical to box height, or 28px */
+    
+    text-align: center;
+    letter-spacing: 0.78em;
+    text-transform: uppercase;
+    
+    
+}
+    
+    
+
+.boxes {
+    display:flex;
+    padding: 20px;
+    justify-content: center;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 178%;
+    text-align: center;        
+}
+
+
+.box{
+    display: flex;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    flex-direction: column;
+    margin: 10px;
+    
+}
+
+.Scoreboxes{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
+
+}
+
+.Sbox{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
+    padding: 35PX;
+    margin: 10px;
+ 
+
+}
+
+
+
+.skillbar {
+    color: white;
+   padding: 1%;
+      background: #F3F3F3;
+    border-radius: 10px;
+    width: 200px;
+}
+
+.skillbar2 {
+     background: #FDE500;
+        color: white;
+    padding: 1%;
+        border-radius: 10px;
+        width: 100px;
+}
+
+
+.createdPage{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 50px;
+    background: #0B0B0B;
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 140%;
+/* identical to box height, or 22px */
+
+text-align: center;
+letter-spacing: 0.25em;
+text-transform: uppercase;
+
+}
+
+.createdSquare{
+    display: flex;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
+
+    Width: 274px;
+    Height: 71px;
+    margin: 15px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+/* in 640px screen size change layout to
+@media screen and (max-width: 640px){ 
+    body {
+       
+        flex-direction: column;
+    }
+
+    .box {
+        margin: 20px 5px;
+        border: 2px solid yellow;
+    }
+} */
+
+
+.Protfolio-content{
+padding:30px;
+
+}
+.PortfolioPage{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.sptexts{
+ display: flex;
+ justify-content: space-around;
+ text-align: center;
+letter-spacing: 0.2em;
+text-transform: uppercase;
+color: #0B0B0B;
+margin: 40px;
+border-style:groove;
+
+}
+
+.circle2{
+ 
+    height: 100px;
+    width: 100px;
+    Top:0.01px;
+    Left:0.01px;
+    background-color: rgb(197, 27, 27);
+    border-radius: 50%;
+    border-style: black 2px;
+    position: absolute; 
+    top: 3240px;
+    left: 900px;
+}
+
+
+
+.PortImages{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.portimg{
+    display:flex;
+    width: 325px;
+    height: 250px;
+
+}
+
+.PortImages{
+    padding:50px;
+}
+
+.LikeSee{
+    background-color: white;
+    padding: 100px;
+
+}
+
+.like-button{
+    background: yellow;
+    color: black;
+    text-decoration: none;
+    padding: 1em 2em;
+    font-family: 'Raleway';
+    font-size: 12px;
+font-style: normal;
+font-weight: 500;
+line-height: 13px;
+letter-spacing: 0.37em;
+text-transform: uppercase;
+}
+
+.LikeVideo{
+    background-image: url(https://wallpapercave.com/wp/wp9971188.jpg);
+      padding:150px;
+    
+    
+}
+.view-button{
+    background: yellow;
+    color: black;
+    text-decoration: none;
+    padding: 1em 2em;
+    font-family: 'Raleway';
+    font-size: 18px;
+
+font-style: normal;
+font-weight: 600;
+line-height: 13px;
+letter-spacing: 0.37em;
+text-transform: uppercase;  
+}
+
+.OurTeam{
+    padding:80px
+}
+
+.OurTeamPhotos{
+
+    display:flex;
+    
+}
+
+.OurTeamPhoto{
+    display: flex;
+    flex-direction: c;
+    
+}

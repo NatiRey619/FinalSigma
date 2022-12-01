@@ -1,0 +1,68 @@
+cd ./Desktop -  go to desktop folder from where I stand 
+
+ cd ../ - go one folder back .
+--------------------------------------------------------------------------------
+ls - show all files in current location 
+
+ls -a - show all hidden files
+---------------------------------------------------------------------------------
+mkdir NAME - creating folder with name
+
+also can mkdir Name1 Name2 Name - creating 3 folders
+
+-------------------------------------------------------------------------------------
+touch - giving te option to create file
+touch index.html - creating index.html
+
+touch .NAME - creating hidden file that can only be seen in ls - a
+
+touch .gitignore - 
+creating a hidden file that 
+ Git ignore this file when committing your project to the GitHub repository
+
+----------------------------------------------------------------------------------------------
+
+git checkout NAME - taking you out to a specific branch 
+
+git merge NAME - merging between branches
+
+------------------------------
+how to connect gitHub
+
+0. git init 
+making the folder as git so GitHub will recognize him .
+
+
+1. open folder 
+mkdir NAME
+
+2. Create all files inside
+touch  main.js main.css scripts.json utils.js 
+
+3. git add .
+adding current folder to git
+
+4. login to your git hub account
+ git config --global user.email "EMAIL" (with "")
+  git config --global user.name "NAME" (with "")
+
+5. create gis version with currently stages changes
+ git commit -m "NAME" (with "")
+
+6. git push
+pushing git files from folder - to get GitHub
+
+7.  git push --set-upstream origin main
+allows you to set the default remote branch for your current local branch
+
+---------------------------------------------------------------------------
+
+how to save changes in any file ?
+1. git add .
+2. git commit -m "NAME"
+3. git push
+
+--------------------------------
+
+git pull 
+pulling data from branch
