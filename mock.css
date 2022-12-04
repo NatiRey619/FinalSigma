@@ -12,14 +12,10 @@ line-height: 206%;
  
         height: 48px;
         width: 48px;
-        Top:0.01px;
-        Left:0.01px;
-        background-color: white;
         border-radius: 50%;
         position: absolute; 
         top: 14px;
         left: 200px;
-        transition: step-start 21s;
     
 }
 
@@ -33,7 +29,7 @@ line-height: 206%;
 
 
 .top-page{
-    background-image: url(header.png);
+    background-image: url(Websitemockup/Header.png);
     height: 800px;
     display: flex;
     flex-direction: column;
@@ -77,7 +73,7 @@ line-height: 206%;
 
 
 .top-button{
-    background: yellow;
+    background: #FDE500;
     color: black;
     text-decoration: none;
     padding: 1em 2em;
@@ -126,45 +122,48 @@ padding:100px;
     display:flex;
     padding: 20px;
     justify-content: center;
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 13px;
-    line-height: 178%;
-    text-align: center;        
+        
 }
 
 
 .box{
     display: flex;
-    background: #FFFFFF;
-    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
     padding: 30px;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
     margin: 10px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
+    
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 178%;
+    
     
 }
-
-.Scoreboxes{
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-
-
-}
-
 .Sbox{
     display: flex;
     flex-direction: column;
     text-align: left;
     background: #FFFFFF;
     box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
-    padding: 35PX;
+    padding: 35px;
     margin: 10px;
- 
+
 
 }
 
+.Scoreboxes{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    
+
+
+}
 
 
 .skillbar {
@@ -173,6 +172,7 @@ padding:100px;
       background: #F3F3F3;
     border-radius: 10px;
     width: 200px;
+    margin: 0px;
 }
 
 .skillbar2 {
@@ -234,36 +234,37 @@ padding:30px;
 
 }
 .PortfolioPage{
-    background-color: white;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     
 }
+.Protfolio-content{
+   align-items: center;
+   padding:60px;
+   
+}
+
+
 
 .sptexts{
  display: flex;
- justify-content: space-around;
  text-align: center;
+ align-items: center;
+ justify-content: space-around;
 letter-spacing: 0.2em;
 text-transform: uppercase;
-color: #0B0B0B;
-margin: 40px;
-border-style:groove;
 
+border-top:3px solid #000;
+border-bottom:3px solid #000;
 }
 
-.circle2{
- 
-    height: 100px;
-    width: 100px;
-    Top:0.01px;
-    Left:0.01px;
-    background-color: rgb(197, 27, 27);
-    border-radius: 50%;
-    border-style: black 2px;
-    position: absolute; 
-    top: 3240px;
-    left: 700px;
+
+.SP{
+    background-color: #080808;
+    position:absolute;
+    top: 2980px;
+    right: 711px;
 }
 
 
@@ -285,6 +286,8 @@ border-style:groove;
     padding:50px;
 }
 
+
+
 .LikeSee{
     background-color: white;
     padding: 100px;
@@ -292,7 +295,7 @@ border-style:groove;
 }
 
 .like-button{
-    background: yellow;
+    background: #FDE500;
     color: black;
     text-decoration: none;
     padding: 1em 2em;
@@ -306,13 +309,13 @@ text-transform: uppercase;
 }
 
 .LikeVideo{
-    background-image: url(https://wallpapercave.com/wp/wp9971188.jpg);
+    background-image: url(Websitemockup/sky.png);
       padding:150px;
     
     
 }
 .view-button{
-    background: yellow;
+    background: #FDE500;
     color: black;
     text-decoration: none;
     padding: 1em 2em;
@@ -346,7 +349,7 @@ text-transform: uppercase;
     flex-direction: column;
     background: #FFFFFF;
     box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
-    width: 250px;
+    width: 210px;
    
     margin: 25px;
     font-family: 'Raleway';
@@ -354,4 +357,86 @@ text-transform: uppercase;
    
    
 
+}
+
+.OurTeamPhoto > h4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Raleway';
+    letter-spacing: 0.25em;
+}
+
+.footer{
+    display: flex;
+    
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: baseline;
+    
+}
+
+.yello-triangle{
+    position: absolute;
+    width: 1515px;
+    height: 215px;
+    left: 0px;
+    top: 5433px;
+    background: #FDE500;
+    z-index: -1;
+}
+
+
+
+.bio-end{
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: black;
+    font-family: 'Raleway';
+
+    
+
+    
+}
+.bio-end > div{
+    padding:50px;
+    display: flex;
+    flex-direction: column;
+ 
+    
+}
+
+.ContactUs{
+    display: flex;
+    align-items: baseline;
+    
+}
+.Links-content{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+.AboutUs-content{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+
+
+.ContactUs > div{
+    display: flex;
+    margin:30px;
+}
+
+
+
+
+
+.marketing-logos{
+    display: flex;
+     column-gap: 20px; /* how to give column gap  */
+  justify-content: space-between;
+  
 }
