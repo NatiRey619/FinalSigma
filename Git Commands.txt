@@ -66,3 +66,34 @@ how to save changes in any file ?
 
 git pull 
 pulling data from branch
+
+
+how to move between branches
+
+git checkout nameofBranch
+
+
+
+
+how to open new branch in git
+
+git branch nameofBranch
+
+
+
+
+how to see all git branches
+
+git branch
+
+
+
+
+
+how to merge between branches 
+
+1. go to right branch 
+git checkout nameofBranch
+
+
+2. git merge nameofBranchtoMerge
